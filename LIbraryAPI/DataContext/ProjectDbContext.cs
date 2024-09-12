@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using LIbraryAPI.Configurations;
+using LIbraryAPI.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace LIbraryAPI.DataContext
 {
@@ -7,6 +9,13 @@ namespace LIbraryAPI.DataContext
         public ProjectDbContext(DbContextOptions<ProjectDbContext> options):base(options)
         {
             
+        }
+
+        public DbSet<Book> Book {  get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new BookConfiguration());
         }
     }
 }
