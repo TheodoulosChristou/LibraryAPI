@@ -45,24 +45,86 @@ namespace LIbraryAPI.Repository
             }
         }
 
-        public void DeleteBook(BookDTO book)
+        public async Task<BaseCommandResponse.BaseCommandResponse> DeleteBook(BookDTO book)
         {
-            throw new NotImplementedException();
+            try
+            {
+                BaseCommandResponse.BaseCommandResponse result = new BaseCommandResponse.BaseCommandResponse();
+                var validator = new UpdateDeleteBookDtoValidator();
+                var valid = await validator.ValidateAsync(book);
+
+                if(valid.IsValid == false)
+                {
+                    throw new Exception();
+                } else
+                {
+                    var bookRequest = _mapper.Map<Book>(book);
+                    _dbContext.Book.Remove(bookRequest);
+                    _dbContext.SaveChanges();
+
+                    result.ID = bookRequest.BOOK_ID;
+                    result.MESSAGE = "Book has been successfully deleted";
+                    result.ENTITY = "BOOK";
+
+                    return result;
+
+                }
+            } catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public Task<List<BookDTO>> GetAllBooks()
+        public async Task<List<BookDTO>> GetAllBooks()
         {
-            throw new NotImplementedException();
+            try
+            {
+                List<Book> bookList =  _dbContext.Book.ToList();
+                List<BookDTO> result = _mapper.Map<List<BookDTO>>(bookList);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public Task<BookDTO> GetBookByBookId(int book_id)
+        public async Task<BookDTO> GetBookByBookId(int book_id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var book = _dbContext.Book.FirstOrDefault(x=>x.BOOK_ID == book_id);
+                BookDTO result = _mapper.Map<BookDTO>(book);
+                return result;
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public Task<BookDTO> UpdateBook(BookDTO book)
+        public async Task<BookDTO> UpdateBook(BookDTO book)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var validator = new UpdateDeleteBookDtoValidator();
+                var valid = await validator.ValidateAsync(book);
+
+                if(valid.IsValid == false)
+                {
+                    throw new Exception();
+                } else
+                {
+                    var bookRequest = _mapper.Map<Book>(book);
+                    _dbContext.Book.Update(bookRequest);
+                    _dbContext.SaveChanges();
+
+                    BookDTO result = _mapper.Map<BookDTO>(bookRequest);
+                    return result;
+                }
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using LIbraryAPI.DTOs.Book;
+﻿
+using LIbraryAPI.DTOs.Book;
 
 namespace LIbraryAPI.Repository
 {
@@ -12,6 +13,6 @@ namespace LIbraryAPI.Repository
 
         public Task<BookDTO> UpdateBook(BookDTO book);
 
-        public void DeleteBook(BookDTO book);
+        public Task<BaseCommandResponse.BaseCommandResponse> DeleteBook(BookDTO book);
     }
 }
