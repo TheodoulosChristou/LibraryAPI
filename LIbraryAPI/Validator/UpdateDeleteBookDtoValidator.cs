@@ -7,7 +7,7 @@ namespace LIbraryAPI.Validator
     {
         public UpdateDeleteBookDtoValidator()
         {
-            RuleFor(x=>x.BOOK_ID).NotEmpty().WithMessage("BOOK_ID must not be null");
+            RuleFor(x=>x.BOOK_ID).NotNull().WithMessage("BOOK_ID must not be null");
 
             RuleFor(x => x.BOOK_NAME).NotEmpty().WithMessage("BOOK_NAME must not be null");
 
