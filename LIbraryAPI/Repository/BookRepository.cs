@@ -19,7 +19,7 @@ namespace LIbraryAPI.Repository
         }
 
 
-        public async Task<BookDTO> CreateBook(BookDTO book)
+        public async Task<BookDto> CreateBook(BookDto book)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace LIbraryAPI.Repository
                     _dbContext.Add(bookRequest);
                     _dbContext.SaveChanges();
 
-                    var result = _mapper.Map<BookDTO>(bookRequest);    
+                    var result = _mapper.Map<BookDto>(bookRequest);    
                     return result;
                 }
             }
@@ -45,7 +45,7 @@ namespace LIbraryAPI.Repository
             }
         }
 
-        public async Task<BaseCommandResponse.BaseCommandResponse> DeleteBook(BookDTO book)
+        public async Task<BaseCommandResponse.BaseCommandResponse> DeleteBook(BookDto book)
         {
             try
             {
@@ -75,12 +75,12 @@ namespace LIbraryAPI.Repository
             }
         }
 
-        public async Task<List<BookDTO>> GetAllBooks()
+        public async Task<List<BookDto>> GetAllBooks()
         {
             try
             {
                 List<Book> bookList =  _dbContext.Book.ToList();
-                List<BookDTO> result = _mapper.Map<List<BookDTO>>(bookList);
+                List<BookDto> result = _mapper.Map<List<BookDto>>(bookList);
                 return result;
             }
             catch (Exception ex)
@@ -89,12 +89,12 @@ namespace LIbraryAPI.Repository
             }
         }
 
-        public async Task<BookDTO> GetBookByBookId(int book_id)
+        public async Task<BookDto> GetBookByBookId(int book_id)
         {
             try
             {
                 var book = _dbContext.Book.FirstOrDefault(x=>x.BOOK_ID == book_id);
-                BookDTO result = _mapper.Map<BookDTO>(book);
+                BookDto result = _mapper.Map<BookDto>(book);
                 return result;
             }catch (Exception ex)
             {
@@ -102,7 +102,25 @@ namespace LIbraryAPI.Repository
             }
         }
 
-        public async Task<BookDTO> UpdateBook(BookDTO book)
+        public async Task<List<BookDto>> SearchBooksByCriteria(SearchBookCriteriaDto searchCriteria)
+        {
+            try
+            {
+                List<Book> bookList =  _dbContext.Book
+                    .Where(x => (x.BOOK_ID == searchCriteria.BOOK_ID || searchCriteria.BOOK_ID == null)
+                            &&(searchCriteria.BOOK_NAME == null || x.BOOK_NAME.Contains(searchCriteria.BOOK_NAME))
+                            && (searchCriteria.DATE_PUBLISHED == null || x.DATE_PUBLISHED == searchCriteria.DATE_PUBLISHED) )
+                    .ToList();
+                List<BookDto> result = _mapper.Map<List<BookDto>>(bookList);
+                return result;
+
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task<BookDto> UpdateBook(BookDto book)
         {
             try
             {
@@ -118,7 +136,7 @@ namespace LIbraryAPI.Repository
                     _dbContext.Book.Update(bookRequest);
                     _dbContext.SaveChanges();
 
-                    BookDTO result = _mapper.Map<BookDTO>(bookRequest);
+                    BookDto result = _mapper.Map<BookDto>(bookRequest);
                     return result;
                 }
             }catch (Exception ex)

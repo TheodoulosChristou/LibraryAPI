@@ -1,6 +1,6 @@
 ﻿namespace LIbraryAPI.DTOs.Book
 {
-    public class BookDTO
+    public class BookDto
     {
         public int BOOK_ID { get; set; }
 

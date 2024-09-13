@@ -17,28 +17,35 @@ namespace LIbraryAPI.Controllers
         }
 
         [HttpGet("GetAllBooks")]
-        public async Task<ActionResult<IQueryable<BookDTO>>> GetAllBooks()
+        public async Task<ActionResult<IQueryable<BookDto>>> GetAllBooks()
         {
             var request = await _repository.GetAllBooks();
             return Ok(request);
         }
 
         [HttpGet("GetBookByBookId")]
-        public async Task<ActionResult<IQueryable<BookDTO>>> GetBookByBookId(int book_id)
+        public async Task<ActionResult<IQueryable<BookDto>>> GetBookByBookId(int book_id)
         {
             var request = await _repository.GetBookByBookId(book_id);
             return Ok(request);
         }
 
         [HttpPost("CreateBook")]
-        public async Task<ActionResult<IQueryable<BookDTO>>> CreateBook([FromBody] BookDTO bookDTO)
+        public async Task<ActionResult<IQueryable<BookDto>>> CreateBook([FromBody] BookDto BookDto)
         {
-            var request = await _repository.CreateBook(bookDTO);
+            var request = await _repository.CreateBook(BookDto);
+            return Ok(request);
+        }
+
+        [HttpPost("SearchBooksByCriteria")]
+        public async Task<ActionResult<IQueryable<BookDto>>> SearchBooksByCriteria([FromBody] SearchBookCriteriaDto searchBookCriteria)
+        {
+            var request = await _repository.SearchBooksByCriteria(searchBookCriteria);
             return Ok(request);
         }
 
         [HttpPut("UpdateBook")]
-        public async Task<ActionResult<IQueryable<BookDTO>>> UpdateBook([FromBody] BookDTO updateBook)
+        public async Task<ActionResult<IQueryable<BookDto>>> UpdateBook([FromBody] BookDto updateBook)
         {
             var request = await _repository.UpdateBook(updateBook);
             return Ok(request);

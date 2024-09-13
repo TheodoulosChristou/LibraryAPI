@@ -3,7 +3,7 @@ using LIbraryAPI.DTOs.Book;
 
 namespace LIbraryAPI.Validator
 {
-    public class UpdateDeleteBookDtoValidator: AbstractValidator<BookDTO>
+    public class UpdateDeleteBookDtoValidator: AbstractValidator<BookDto>
     {
         public UpdateDeleteBookDtoValidator()
         {

@@ -8,7 +8,7 @@ namespace LIbraryAPI.Mapping
     {
         public AutoMapperProfile()
         {
-            CreateMap<BookDTO, Book>().ReverseMap();
+            CreateMap<BookDto, Book>().ReverseMap();
         }
     }
 }
