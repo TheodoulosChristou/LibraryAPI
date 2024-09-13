@@ -13,9 +13,15 @@ namespace LIbraryAPI.DataContext
 
         public DbSet<Book> Book {  get; set; }
 
+        public DbSet<Author> Author { get; set; }
+
+        public DbSet<Publish> Publish { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new BookConfiguration());
+            modelBuilder.ApplyConfiguration(new AuthorConfiguration());
+            modelBuilder.ApplyConfiguration(new PublishConfiguration());
         }
     }
 }
