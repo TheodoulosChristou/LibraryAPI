@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LIbraryAPI.DTOs.Author;
 using LIbraryAPI.DTOs.Book;
+using LIbraryAPI.DTOs.Publish;
 using LIbraryAPI.Entity;
 
 namespace LIbraryAPI.Mapping
@@ -11,6 +12,7 @@ namespace LIbraryAPI.Mapping
         {
             CreateMap<BookDto, Book>().ReverseMap();
             CreateMap<AuthorDto, Author>().ReverseMap();
+            CreateMap<PublishDto, Publish>().ReverseMap();
         }
     }
 }

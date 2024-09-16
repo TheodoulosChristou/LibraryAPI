@@ -16,6 +16,11 @@ builder.Services.AddDbContext<ProjectDbContext>(options => options.UseSqlServer(
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IPublishRepository, PublishRepository>();
+
+builder.Services.AddControllers().AddJsonOptions(options =>{ options.JsonSerializerOptions.PropertyNamingPolicy = null; });
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 
