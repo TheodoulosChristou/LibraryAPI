@@ -13,5 +13,7 @@ namespace LIbraryAPI.Repository
         public Task<AuthorDto> UpdateAuthor(AuthorDto author);
 
         public Task<BaseCommandResponse.BaseCommandResponse> DeleteAuthor(AuthorDto author);
+
+        public Task<List<AuthorDto>> SearchAuthorsByCriteria(SearchAuthorsByCriteriaDto searchCriteria);
     }
 }

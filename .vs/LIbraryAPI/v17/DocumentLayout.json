@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\repository\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\repository\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\validator\\authordtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\validator\\authordtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\repository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\repository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\validator\\bookdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\validator\\bookdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\validator\\updatedeletebookdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\validator\\updatedeletebookdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\entity\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\entity\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\dtos\\author\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Controllers\\BookController.cs",
               "RelativeToolTip": "LIbraryAPI\\Controllers\\BookController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:43:53.619Z",
+              "WhenOpened": "2024-09-16T20:23:55.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\BookDtoValidator.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Validator\\BookDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\BookDtoValidator.cs",
-              "RelativeToolTip": "LIbraryAPI\\Validator\\BookDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "LIbraryAPI\\Repository\\BookRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA3wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:33:30.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\AuthorDtoValidator.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Validator\\AuthorDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\AuthorDtoValidator.cs",
-              "RelativeToolTip": "LIbraryAPI\\Validator\\AuthorDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:28:01.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Program.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Program.cs",
-              "RelativeToolTip": "LIbraryAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:26:29.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\AuthorRepository.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\AuthorRepository.cs",
-              "RelativeToolTip": "LIbraryAPI\\Repository\\AuthorRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAzwCQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:26:16.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "LIbraryAPI\\Controllers\\AuthorController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:22:37.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateDeleteBookDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\UpdateDeleteBookDtoValidator.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Validator\\UpdateDeleteBookDtoValidator.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\UpdateDeleteBookDtoValidator.cs",
-              "RelativeToolTip": "LIbraryAPI\\Validator\\UpdateDeleteBookDtoValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:33:32.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\IAuthorRepository.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\IAuthorRepository.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\IAuthorRepository.cs",
-              "RelativeToolTip": "LIbraryAPI\\Repository\\IAuthorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:23:20.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
-              "RelativeToolTip": "LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:22:47.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Author.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Entity\\Author.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\Entity\\Author.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Entity\\Author.cs",
-              "RelativeToolTip": "LIbraryAPI\\Entity\\Author.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:21:08.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthorDto.cs",
-              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DTOs\\Author\\AuthorDto.cs",
-              "RelativeDocumentMoniker": "LIbraryAPI\\DTOs\\Author\\AuthorDto.cs",
-              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DTOs\\Author\\AuthorDto.cs",
-              "RelativeToolTip": "LIbraryAPI\\DTOs\\Author\\AuthorDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T13:21:02.608Z",
+              "WhenOpened": "2024-09-16T20:23:48.311Z",
               "EditorCaption": ""
             }
           ]

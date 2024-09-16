@@ -50,5 +50,12 @@ namespace LIbraryAPI.Controllers
             var request = await _repository.UpdateBook(updateBook);
             return Ok(request);
         }
+
+        [HttpPut("DeleteBook")]
+        public async Task<ActionResult<BaseCommandResponse.BaseCommandResponse>> DeleteBook([FromBody] BookDto updateBook)
+        {
+            var request = await _repository.DeleteBook(updateBook);
+            return Ok(request);
+        }
     }
 }
