@@ -18,6 +18,20 @@ namespace LIbraryAPI.Repository
             _dbContext = dbContext;
             _mapper = mapper;
         }
+
+        public async Task<List<PublishDto>> GetAllPublish()
+        {
+            try
+            {
+                var publishList = _dbContext.Publish.ToList();
+                List<PublishDto> result = _mapper.Map<List<PublishDto>>(publishList);
+                return result;
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task<PublishDto> PublishBookAuthor(PublishDto publishDto)
         {
             try
@@ -46,9 +60,30 @@ namespace LIbraryAPI.Repository
 
         }
 
-        public Task<PublishDto> UpdatePublishBookAuthor(PublishDto publishDto)
+        public async Task<PublishDto> UpdatePublishBookAuthor(PublishDto publishDto)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var validator = new UpdateDeletePublishDtoValidator();
+                var valid = await validator.ValidateAsync(publishDto);
+
+                if(valid.IsValid == false)
+                {
+                    throw new Exception("Publish Object failed to be updated");
+                } else
+                {
+                    var publishRequest = _mapper.Map<Publish>(publishDto);
+                    _dbContext.Publish.Update(publishRequest);
+                    _dbContext.SaveChanges();
+
+                    PublishDto result = _mapper.Map<PublishDto>(publishRequest);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

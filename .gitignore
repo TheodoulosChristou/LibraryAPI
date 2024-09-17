@@ -6,3 +6,15 @@
 .vs/LIbraryAPI/FileContentIndex/cc7f2419-7e3a-4b4e-89f3-ea53eb9c7013.vsidx
 *.vsidx
 .vs/LIbraryAPI/v17/.suo
+.vs/LIbraryAPI/DesignTimeBuild/.dtbcache.v2
+.vs/LIbraryAPI/v17/.futdcache.v2
+.vs/LIbraryAPI/v17/.suo
+.vs/LIbraryAPI/v17/DocumentLayout.json
+.vs/ProjectEvaluation/libraryapi.metadata.v8.bin
+.vs/ProjectEvaluation/libraryapi.projects.v8.bin
+.vs/ProjectEvaluation/libraryapi.strings.v8.bin
+LIbraryAPI/bin/Debug/net8.0/LIbraryAPI.dll
+LIbraryAPI/bin/Debug/net8.0/LIbraryAPI.exe
+*.pdb
+*.exe
+*.dll
