@@ -13,5 +13,7 @@ public interface IUserRepository
         public Task<UserDto> UpdateUser(UserDto updateUser);
 
         public Task<BaseCommandResponse> DeleteUser(UserDto deleteUser);
+
+        public Task<List<UserDto>> SearchUserByCriteria(SearchUserByCriteriaDto searchCriteria);
     }
 
