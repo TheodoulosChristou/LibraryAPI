@@ -4,6 +4,7 @@ using LIbraryAPI.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LIbraryAPI.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
-    partial class ProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240924130831_Create-Order-Table")]
+    partial class CreateOrderTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -72,10 +75,7 @@ namespace LIbraryAPI.Migrations
             modelBuilder.Entity("LIbraryAPI.Entity.Order", b =>
                 {
                     b.Property<int>("ORDER_ID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ORDER_ID"));
 
                     b.Property<int>("BOOK_ID")
                         .HasColumnType("int");
@@ -84,8 +84,6 @@ namespace LIbraryAPI.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("ORDER_ID");
-
-                    b.HasIndex("BOOK_ID");
 
                     b.HasIndex("USER_ID");
 
@@ -156,7 +154,7 @@ namespace LIbraryAPI.Migrations
                 {
                     b.HasOne("LIbraryAPI.Entity.Book", null)
                         .WithMany()
-                        .HasForeignKey("BOOK_ID")
+                        .HasForeignKey("ORDER_ID")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
