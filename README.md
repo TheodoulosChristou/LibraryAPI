@@ -64,9 +64,11 @@ This folder contains the configuration and metadata files used by the project.
    git clone https://github.com/TheodoulosChristou/LibraryAPI.git
 
 2. Navigate to the project directory
+    ```bash
    cd LibraryAPI/LibraryAPI
 
-3. Install the required NuGet packages
+4. Install the required NuGet packages
+    ```bash
    dotnet restore
 
 
@@ -78,4 +80,5 @@ dotnet ef database update
 
 
 Database Setup
+```bash
 dotnet run
