@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|c:\\users\\theodoulos\\libraryapi\\libraryapi\\libraryapi\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A0B35C0-0601-4852-B884-6D9BA87401F0}|LIbraryAPI\\LIbraryAPI.csproj|solutionrelative:libraryapi\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,11 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "LIbraryAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Dockerfile",
+              "RelativeToolTip": "LIbraryAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-25T14:35:38.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BaseCommandResponse.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\BaseCommandResponse\\BaseCommandResponse.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\BaseCommandResponse\\BaseCommandResponse.cs",
@@ -94,25 +111,24 @@
               "RelativeToolTip": "LIbraryAPI\\BaseCommandResponse\\BaseCommandResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T14:05:34.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T14:05:34.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\UnitOfWork.cs",
               "RelativeToolTip": "LIbraryAPI\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFgAAAA3AAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T13:48:56.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SearchOrderResultDto.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DTOs\\Order\\SearchOrderResultDto.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\DTOs\\Order\\SearchOrderResultDto.cs",
@@ -120,12 +136,11 @@
               "RelativeToolTip": "LIbraryAPI\\DTOs\\Order\\SearchOrderResultDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:45:52.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:45:52.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\IUnitOfWork.cs",
@@ -133,12 +148,11 @@
               "RelativeToolTip": "LIbraryAPI\\Repository\\IUnitOfWork.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAD4vxYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:43:07.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:43:07.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Controllers\\OrderController.cs",
@@ -146,12 +160,11 @@
               "RelativeToolTip": "LIbraryAPI\\Controllers\\OrderController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:17:47.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:17:47.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Configurations\\OrderConfiguration.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Configurations\\OrderConfiguration.cs",
@@ -159,12 +172,11 @@
               "RelativeToolTip": "LIbraryAPI\\Configurations\\OrderConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:00:54.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:00:54.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\IOrderRepository.cs",
@@ -172,12 +184,11 @@
               "RelativeToolTip": "LIbraryAPI\\Repository\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:11:33.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:11:33.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Repository\\OrderRepository.cs",
@@ -185,12 +196,11 @@
               "RelativeToolTip": "LIbraryAPI\\Repository\\OrderRepository.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAYwDQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:12:31.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:12:31.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SearchOrderCriteriaDto.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DTOs\\Order\\SearchOrderCriteriaDto.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\DTOs\\Order\\SearchOrderCriteriaDto.cs",
@@ -198,12 +208,11 @@
               "RelativeToolTip": "LIbraryAPI\\DTOs\\Order\\SearchOrderCriteriaDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:44:30.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:44:30.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Entity\\Order.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Entity\\Order.cs",
@@ -211,12 +220,11 @@
               "RelativeToolTip": "LIbraryAPI\\Entity\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:16.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:10:16.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProjectDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DataContext\\ProjectDbContext.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\DataContext\\ProjectDbContext.cs",
@@ -224,12 +232,11 @@
               "RelativeToolTip": "LIbraryAPI\\DataContext\\ProjectDbContext.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwB0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:27:11.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:27:11.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Program.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Program.cs",
@@ -237,12 +244,11 @@
               "RelativeToolTip": "LIbraryAPI\\Program.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAYwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:19:28.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:19:28.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BookConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Configurations\\BookConfiguration.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Configurations\\BookConfiguration.cs",
@@ -250,12 +256,11 @@
               "RelativeToolTip": "LIbraryAPI\\Configurations\\BookConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:22:55.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:22:55.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PublishConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Configurations\\PublishConfiguration.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Configurations\\PublishConfiguration.cs",
@@ -263,12 +268,11 @@
               "RelativeToolTip": "LIbraryAPI\\Configurations\\PublishConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:23:02.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:23:02.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Entity\\Book.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Entity\\Book.cs",
@@ -276,12 +280,11 @@
               "RelativeToolTip": "LIbraryAPI\\Entity\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:22:48.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:22:48.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderValidatorDto.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Validator\\OrderValidatorDto.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Validator\\OrderValidatorDto.cs",
@@ -289,12 +292,11 @@
               "RelativeToolTip": "LIbraryAPI\\Validator\\OrderValidatorDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:13:58.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:13:58.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
@@ -302,12 +304,11 @@
               "RelativeToolTip": "LIbraryAPI\\Mapping\\AutoMapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:54.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:10:54.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\Theodoulos\\LibraryAPI\\LibraryAPI\\LIbraryAPI\\DTOs\\Order\\OrderDto.cs",
               "RelativeDocumentMoniker": "LIbraryAPI\\DTOs\\Order\\OrderDto.cs",
@@ -315,8 +316,7 @@
               "RelativeToolTip": "LIbraryAPI\\DTOs\\Order\\OrderDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:13.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T13:10:13.472Z"
             }
           ]
         }
